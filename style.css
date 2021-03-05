@@ -1,10 +1,47 @@
 header{
     margin-top: 0;
     background-image: url("./images/backgrounds/landing.jpg") ;
-    width: 100%;
-}
+    }
+
 .top{
     margin: auto;
     text-align: center;
     color: white;
+    padding-bottom: 5%;
+}
+#happy{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.container{
+    display: flex;
+    height: 200px;
+}
+#happy, #breakfast, #lunch, #dinner{
+    width: 25%;
+    text-align: center;
+    
+}
+#breakfast{
+    background-image: url("./images/foodtop/breakfast.jpg");
+}
+#lunch{
+    background-image:url("./images/foodtop/lunch.jpg");
+    opacity: 0.5;
+}
+#dinner{
+    background-image: url("./images/foodtop/dinner.jpg");
+}
+#happy >#hy{
+    height: 100px;
+    color: black;
+    background-color: grey;
+}
+#happy >#pt{
+    height: 100px;
+     background-color:#F15A29;
+     color: white;
+     padding-top: 20px;
 }
