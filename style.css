@@ -1,0 +1,10 @@
+header{
+    margin-top: 0;
+    background-image: url("./images/backgrounds/landing.jpg") ;
+    width: 100%;
+}
+.top{
+    margin: auto;
+    text-align: center;
+    color: white;
+}
