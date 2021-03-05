@@ -51,3 +51,28 @@ header{
      padding-top: 100px;
      color: honeydew;
  }
+
+ .food{
+     
+     width: 50%;
+     margin: auto;
+     padding-top: 50px;  
+     
+    
+ }
+ #food-image{
+     float: left;
+    box-shadow: 1px 1px 1px grey;
+    height: 210px;
+    width: 505px;
+    border: 2px solid grey;
+    box-sizing: content-box;
+    display: block;
+    text-align: center;
+    
+    }
+    #food-image>img{
+    padding-top: 10px;
+    }
+    
+ 
