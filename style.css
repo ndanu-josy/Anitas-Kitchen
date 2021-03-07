@@ -133,16 +133,32 @@ button{
     height: 80%;
     margin: auto;
     background-color: white;
-    border: 1px solid blue;
+    
     margin: 50px auto 50px auto;
-    display: flex;
-    justify-content: space-around;
+    
     text-align: center;
 }
-.middle>#items p{
+#allimages, #fastfood p{
     color: #F15A29;
 }
-
+#allimages{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#labels{
+    display: flex;
+   
+    }
+    #fastfood, #Drc{
+        width: 25%;
+        text-align: center;
+    }
+    #Drc{
+        background-color: rgb(192,192,192);
+        border: 1px solid grey;
+        color: black;
+    }
 
    
         
