@@ -170,7 +170,7 @@ button{
         padding-top: 50px;
         font-size: 50px;
     }
-        .happyabout{
+     .happyabout{
             margin-top: 50px;
             display: flex;
             width: 80%;
@@ -178,20 +178,81 @@ button{
             box-shadow: 0 0 5px 2px grey;
             text-align: center;
         }
-        .happyabout h3{
+    .happyabout h3{
             color:#F15A29;
         }
-        #happycustomers{
+     #happycustomers{
             width: 50%;
         }
-        #aboutmenu{
+    #aboutmenu{
             width: 50%;
             border-left: 2px solid grey;
+            
         }
-        span{ color:#F15A29;
+    span{ color:#F15A29;
         }
        
+    .end{
+            background-image: url("./images/backgrounds/subscribe.jpg");
+            height: 300px;
+            margin-top: 20px;
+        }
    
+    #mail{
+        padding-top: 10px;
+        
+        height: 40px;
+        width: 300px;
+        background-color: white;
+        
+    }
+    #mail a{
+       
+        color: rgb(211,211,211);
+        text-decoration: none;
+    }
+    #mailandbutton{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    #subscribe{
+       color: white;
+       background-color: #F15A29 ;
+       margin-left: 20px;
+    }
+    #info{
+        padding-top: 100px;
+        width:50%;
+        margin: auto;
+        font-size: 1.3em; 
+        color: white;
+       
+    }
+    #info h3{
+        padding-left: 50px;
+    }
+    footer{
+        height: 300px;
+        background-color: #F15A29;
+        color: white;
+        font-size: large;
+    }
+    .footermain{
+       margin: auto;
+       
+       padding-left: 40%;
+       padding-top: 5%;
+    }
+    #menus{
+        display: flex;
+        }
+    #menus img{
+        padding-right: 10px;
+    }   
+    #icons img{
+        padding-left: 10px;
+    } 
    
         
     
