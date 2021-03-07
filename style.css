@@ -58,25 +58,32 @@ header{
      margin: auto;
      padding-top: 50px;  
      display: flex;
-     height: 300px;
+     height: 400px;
     
  }
  #food-image{
    
     box-shadow:   0 8px 16px 0 rgba(145, 143, 143, 0.2);
   
-    height: 210px;
-    width: 505px;
+    height: 220px;
+    width: 140%;
     border: 2px solid grey;
     box-sizing: content-box;
     display: block;
     text-align: center;
     margin-right: 20px; 
-    height: 250px;
-    width: 300px;
+    margin-top: 50px;
+   
+   }
+   #fastfoodimg{
+       padding: 10px;
+       text-align: center;
+      
    }
    #foodp{
        float: right;
+       height: 200px;
+       width: 150px;
    } 
    
 .food>#foodp{
@@ -87,7 +94,7 @@ header{
     display: flex;
     width: 50%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 .drinks>#desc{
     text-align: right;
@@ -98,7 +105,7 @@ header{
 #drink-image{
     height: 110%;
     box-shadow: 00 8px 16px 0px grey;
-    width: 250x;
+    width: 265px;
     border: 2px solid grey;
     margin-left: 15%;
 }
