@@ -116,13 +116,15 @@ header{
     padding: 10px;
 }
 button{
-    color: red;
-    border: 1px solid red;
+    color:#F15A29;
+    border: 1px solid#F15A29;
     width: 200px;
     height: 50px;
     background-color: white;
 }
-    
+    span {
+        font-size: 30px;
+    }
 .middle{
     background-image: url("./images/backgrounds/foodsBg.jpg");
     height: 599px;
@@ -159,7 +161,29 @@ button{
         border: 1px solid grey;
         color: black;
     }
-
+    #previous{
+        padding-top: 70px;
+        font-size: 50px;
+    }
+    #next{
+        padding-top: 50px;
+        font-size: 50px;
+    }
+        .happyabout{
+            display: flex;
+            width: 50%;
+            margin: auto;
+        }
+        #happycustomers{
+            width: 50%;
+        }
+        #aboutmenu{
+            width: 50%;
+        }
+        span{ color:#F15A29;
+        }
+       
+   
    
         
     
