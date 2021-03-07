@@ -57,22 +57,41 @@ header{
      width: 50%;
      margin: auto;
      padding-top: 50px;  
-     
+     display: flex;
+     height: 300px;
     
  }
  #food-image{
-     float: left;
-    box-shadow: 1px 1px 1px grey;
+   
+    box-shadow:   0 8px 16px 0 rgba(146, 143, 143, 0.2);
+  
     height: 210px;
     width: 505px;
     border: 2px solid grey;
     box-sizing: content-box;
     display: block;
     text-align: center;
+    margin-right: 20px; 
+    height: 250px;
+    width: 300px;
+   }
+   #foodp{
+       float: right;
+   } 
+   
+.food>#foodp{
+   height: 210px;
+   width: 250px;
+}
+.drinks{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+}
     
-    }
-    #food-image>img{
-    padding-top: 10px;
-    }
+   
+        
+    
     
  
