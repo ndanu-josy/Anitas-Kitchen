@@ -95,6 +95,8 @@ header{
     width: 50%;
     margin: auto;
     padding-top: 10px;
+    padding-bottom: 20px;
+   
 }
 .drinks>#desc{
     text-align: right;
@@ -121,6 +123,27 @@ button{
     background-color: white;
 }
     
+.middle{
+    background-image: url("./images/backgrounds/foodsBg.jpg");
+    height: 599px;
+    padding-top: 20px;
+}
+.middle>#items{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: white;
+    border: 1px solid blue;
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.middle>#items p{
+    color: #F15A29;
+}
+
+
    
         
     
