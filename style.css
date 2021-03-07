@@ -89,6 +89,12 @@ header{
     margin: auto;
     padding-top: 50px;
 }
+.drinks>#desc{
+    text-align: right;
+    margin-right: 5px;
+    height: 200px;
+    width: 150px;
+}
 button{
     color: red;
     border: 1px solid red;
