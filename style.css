@@ -129,6 +129,7 @@ button{
     background-image: url("./images/backgrounds/foodsBg.jpg");
     height: 599px;
     padding-top: 20px;
+    margin-bottom: 50px;
 }
 .middle>#items{
     width: 80%;
@@ -170,15 +171,22 @@ button{
         font-size: 50px;
     }
         .happyabout{
+            margin-top: 50px;
             display: flex;
-            width: 50%;
+            width: 80%;
             margin: auto;
+            box-shadow: 0 0 5px 2px grey;
+            text-align: center;
+        }
+        .happyabout h3{
+            color:#F15A29;
         }
         #happycustomers{
             width: 50%;
         }
         #aboutmenu{
             width: 50%;
+            border-left: 2px solid grey;
         }
         span{ color:#F15A29;
         }
