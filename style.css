@@ -1,3 +1,7 @@
+*html{
+    top: 0;
+    position: fixed;
+}
 header{
     margin-top: 0;
     background-image: url("./images/backgrounds/landing.jpg") ;
@@ -241,7 +245,7 @@ button{
     .footermain{
        margin: auto;
        
-       padding-left: 40%;
+       padding-left: 45%;
        padding-top: 5%;
     }
     #menus{
@@ -253,7 +257,15 @@ button{
     #icons img{
         padding-left: 10px;
     } 
-   
+   .sidebar span{
+       color: white;
+       font-size: 50px;
+   }
+  header .sidebar{
+      padding-top: 100px;
+      text-align: left;
+      padding-left: 100px;
+  }
         
     
     
