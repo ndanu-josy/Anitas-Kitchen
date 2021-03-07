@@ -95,6 +95,17 @@ header{
     height: 200px;
     width: 150px;
 }
+#drink-image{
+    height: 110%;
+    box-shadow: 00 8px 16px 0px grey;
+    width: 250x;
+    border: 2px solid grey;
+    margin-left: 15%;
+}
+#drinkimg{
+    text-align: center;
+    padding: 10px;
+}
 button{
     color: red;
     border: 1px solid red;
