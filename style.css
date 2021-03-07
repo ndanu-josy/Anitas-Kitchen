@@ -9,6 +9,7 @@ header{
     text-align: center;
     color: white;
     padding-bottom: 5%;
+    
 }
 #happy{
     display: flex;
@@ -55,24 +56,27 @@ header{
 
  .food{
      
-     width: 50%;
+     width: 600px;
      margin: auto;
      padding-top: 50px;  
      display: flex;
      height: 400px;
+     padding-right:20%;
+     overflow: hidden;
+     
     
  }
  #food-image{
    
-    box-shadow:   0 8px 16px 0 rgba(145, 143, 143, 0.2);
+    box-shadow: 0 0 5px 2px grey;;
   
     height: 220px;
     width: 140%;
-    border: 2px solid grey;
+   
     box-sizing: content-box;
     display: block;
     text-align: center;
-    margin-right: 20px; 
+    margin-right: 50px; 
     margin-top: 50px;
    
    }
@@ -82,9 +86,10 @@ header{
       
    }
    #foodp{
+       margin-top: 10px;
        float: right;
        height: 200px;
-       width: 150px;
+       width: 100px;
    } 
    
 .food>#foodp{
@@ -107,9 +112,8 @@ header{
 }
 #drink-image{
     height: 110%;
-    box-shadow: 00 8px 16px 0px grey;
+    box-shadow: 0 0 5px 2px grey;
     width: 265px;
-    border: 2px solid grey;
     margin-left: 15%;
 }
 #drinkimg{
@@ -131,6 +135,7 @@ button{
     height: 599px;
     padding-top: 20px;
     margin-bottom: 50px;
+    margin-top: 50px;
    
 }
 .middle>#items{
@@ -261,7 +266,7 @@ button{
        font-size: 50px;
    }
   header .sidebar{
-      padding-top: 100px;
+      padding-top: 50px;
       text-align: left;
       padding-left: 100px;
   }
