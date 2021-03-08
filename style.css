@@ -56,53 +56,58 @@
     
      .food{
          
-         width: 600px;
-         margin: auto;
-         padding-top: 50px;  
+         width: 800px;
+         margin-right: auto;
+         margin-left: auto;
+         margin-top: 50px;
+         padding-top: 10px;  
          display: flex;
-         height: 400px;
-         padding-right:20%;
-         overflow: hidden;
+         height: 450px;
+         padding-right:10%;
          
+         position: relative;
         
      }
      #food-image{
        
         box-shadow: 0 0 5px 2px grey;;
-      
-        height: 220px;
-        width: 140%;
+        width: 500px;
+        height: 90%;
+        
+        margin-left: 10px;
+        margin-right: 10px;
        
-        box-sizing: content-box;
-        display: block;
         text-align: center;
-        margin-right: 50px; 
-        margin-top: 50px;
+      
+        margin-top: 10px;
+        padding: 10px;
        
        }
        #fastfoodimg{
-           padding: 10px;
-           text-align: center;
+           margin-bottom: 0;
+           
           
        }
+       #fastfood2{
+           margin-top: 0;
+           padding-top: 0;
+       }
        #foodp{
-           margin-top: 10px;
-           float: right;
-           height: 200px;
-           width: 100px;
+            
+           
+           
+           
        } 
        
     .food>#foodp{
-       height: 210px;
-       width: 250px;
     }
     .drinks{
         display: flex;
         width: 50%;
-        margin: auto;
-        padding-top: 10px;
+        margin: 0 auto;
+        padding-top: 50px;
         padding-bottom: 20px;
-       
+      
     }
     .drinks>#desc{
         text-align: right;
@@ -197,9 +202,10 @@
                 border-left: 2px solid grey;
                 
             }
-        span{ color:#F15A29;
+        span { color:#F15A29;
+               
             }
-           
+            
         .end{
                 background-image: url("./images/backgrounds/subscribe.jpg");
                 height: 300px;
