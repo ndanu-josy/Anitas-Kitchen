@@ -1,4 +1,4 @@
-#MAnitas Kitchen
+#Anitas Kitchen
 ## Author
 Josphine Ndanu
 
@@ -25,7 +25,7 @@ This will clone the repository into your local folder
  Git
 
 ### Live Site
-View [live]()
+View [live](https://ndanu-josy.github.io/Anitas-Kitchen/)
 
 ### Licence
 This project is under the  [MIT](LICENSE) licence
